@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21225" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hEW-qX-tge">
+    <device id="watch45"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="21040"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="oKg-UL-CX6">
+            <objects>
+                <controller fullBounds="YES" id="hEW-qX-tge">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Easy" id="7Bk-NB-QZn">
+                            <connections>
+                                <action selector="mode1" destination="hEW-qX-tge" id="ZkO-O7-qkD"/>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="gcb-CA-e4T"/>
+                            </connections>
+                        </button>
+                        <separator alignment="center" verticalAlignment="center" id="b6n-fZ-dj5"/>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Normal" id="2YK-xv-qFB">
+                            <connections>
+                                <action selector="mode2" destination="hEW-qX-tge" id="ecX-gq-S92"/>
+                                <segue destination="c9n-kG-oA4" kind="push" id="cL2-JZ-VYs"/>
+                            </connections>
+                        </button>
+                        <separator alignment="center" verticalAlignment="center" id="ChR-Yi-bbz"/>
+                        <button width="1" alignment="center" verticalAlignment="center" title="Hard" id="9gF-Gn-W7G">
+                            <connections>
+                                <action selector="mode3" destination="hEW-qX-tge" id="2fQ-NS-PE0"/>
+                                <segue destination="2eb-xd-GB8" kind="push" id="MmQ-bZ-Vot"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-247" y="-13"/>
+        </scene>
+        <!--Easy-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Easy" hidesWhenLoading="NO" fullBounds="YES" id="AgC-eL-Hgc" customClass="InterfaceController2" customModule="Guess_the_Secret_Number" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="29" alignment="center" text="Status" textAlignment="center" id="THm-kH-0Wn"/>
+                        <label width="136" height="24" alignment="center" text="Find The Number" textAlignment="center" id="uPQ-12-cCD"/>
+                        <button width="136" height="45" alignment="center" title="Make Guess" id="KO5-gn-WhO">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="makeguess" destination="AgC-eL-Hgc" id="XCJ-If-mky"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" hidden="YES" id="Ui6-Un-yy9"/>
+                        <button width="136" height="44" alignment="center" title="+" id="ZU4-1A-D1b">
+                            <fontDescription key="font" type="system" pointSize="40"/>
+                            <connections>
+                                <action selector="more" destination="AgC-eL-Hgc" id="hik-Th-vRo"/>
+                            </connections>
+                        </button>
+                        <button width="136" height="46" alignment="center" title="-" id="4vR-LY-xlt">
+                            <fontDescription key="font" type="system" pointSize="41"/>
+                            <connections>
+                                <action selector="less" destination="AgC-eL-Hgc" id="fKh-KA-5H0"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Number" destination="uPQ-12-cCD" id="hOh-dk-EXy"/>
+                        <outlet property="StatusLabel" destination="THm-kH-0Wn" id="iVc-0j-ErX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-16.484848484848484" y="-18.264462809917354"/>
+        </scene>
+        <!--Normal-->
+        <scene sceneID="xO4-gj-ESN">
+            <objects>
+                <controller identifier="Normal" hidesWhenLoading="NO" fullBounds="YES" id="c9n-kG-oA4" customClass="InterfaceController" customModule="Guess_The_Secret_Number_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="29" alignment="center" text="Status" textAlignment="center" id="LWM-vG-phQ"/>
+                        <label width="136" height="24" alignment="center" text="Find The Number" textAlignment="center" id="b5K-fa-rc8"/>
+                        <button width="136" height="45" alignment="center" title="Make Guess" id="BjP-Bc-dDD">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="makeguess" destination="c9n-kG-oA4" id="MYf-do-UNy"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" hidden="YES" id="L7q-4s-EGM"/>
+                        <button width="136" height="44" alignment="center" title="+" id="gji-qM-A57">
+                            <fontDescription key="font" type="system" pointSize="40"/>
+                            <connections>
+                                <action selector="more" destination="c9n-kG-oA4" id="Q6x-yI-yjd"/>
+                            </connections>
+                        </button>
+                        <button width="136" height="46" alignment="center" title="-" id="yua-TH-mo9">
+                            <fontDescription key="font" type="system" pointSize="41"/>
+                            <connections>
+                                <action selector="less" destination="c9n-kG-oA4" id="gdW-Op-7YV"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Number" destination="b5K-fa-rc8" id="O9Q-Ch-qWi"/>
+                        <outlet property="StatusLabel" destination="LWM-vG-phQ" id="cS1-1i-ZDP"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-438" y="-18"/>
+        </scene>
+        <!--Hard-->
+        <scene sceneID="gzm-Oz-Mpq">
+            <objects>
+                <controller identifier="Hard" contentMode="center" hidesWhenLoading="NO" fullBounds="YES" id="2eb-xd-GB8" customClass="InterfaceController3" customModule="Guess_the_Secret_Number" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="29" alignment="center" text="Status" textAlignment="center" id="MGB-wQ-exP"/>
+                        <label width="136" height="24" alignment="center" text="Find The Number" textAlignment="center" id="8Wg-7g-buh"/>
+                        <button width="136" height="45" alignment="center" title="Make Guess" id="x9f-Nd-Itf">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="makeguess" destination="2eb-xd-GB8" id="F2f-PV-5UE"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" hidden="YES" id="Pdr-fD-S3f"/>
+                        <button width="136" height="44" alignment="center" title="+" id="qIC-bZ-AbG">
+                            <fontDescription key="font" type="system" pointSize="40"/>
+                            <connections>
+                                <action selector="more" destination="2eb-xd-GB8" id="STm-eQ-KCf"/>
+                            </connections>
+                        </button>
+                        <button width="136" height="46" alignment="center" title="-" id="UAx-xl-0Gf">
+                            <fontDescription key="font" type="system" pointSize="41"/>
+                            <connections>
+                                <action selector="less" destination="2eb-xd-GB8" id="Ugz-ay-tLc"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Number" destination="8Wg-7g-buh" id="gZH-iz-GkD"/>
+                        <outlet property="StatusLabel" destination="MGB-wQ-exP" id="GIV-Gr-4RQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-258" y="313"/>
+        </scene>
+    </scenes>
+</document>

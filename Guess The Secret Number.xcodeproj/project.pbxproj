@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E12CDAB284D4B9A009D9F09 /* InterfaceController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12CDAA284D4B9A009D9F09 /* InterfaceController1.swift */; };
+		3E12CDAD284D4CB5009D9F09 /* InterfaceController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12CDAC284D4CB5009D9F09 /* InterfaceController3.swift */; };
+		3E4D34B52850EEB20034F424 /* ViewControllerHard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4D34B42850EEB20034F424 /* ViewControllerHard.swift */; };
+		3E9515D427EF2485000F0C4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9515D327EF2485000F0C4A /* AppDelegate.swift */; };
+		3E9515D627EF2485000F0C4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9515D527EF2485000F0C4A /* SceneDelegate.swift */; };
+		3E9515D827EF2485000F0C4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9515D727EF2485000F0C4A /* ViewController.swift */; };
+		3E9515DB27EF2485000F0C4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9515D927EF2485000F0C4A /* Main.storyboard */; };
+		3E9515DD27EF2487000F0C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9515DC27EF2487000F0C4A /* Assets.xcassets */; };
+		3E9515E027EF2487000F0C4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9515DE27EF2487000F0C4A /* LaunchScreen.storyboard */; };
+		3E9515E527EF2487000F0C4A /* Guess the Secret Number.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3E9515E427EF2487000F0C4A /* Guess the Secret Number.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E9515EB27EF2487000F0C4A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9515E927EF2487000F0C4A /* Interface.storyboard */; };
+		3E9515ED27EF2488000F0C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9515EC27EF2488000F0C4A /* Assets.xcassets */; };
+		3E9515F827EF2488000F0C4A /* InterfaceController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9515F727EF2488000F0C4A /* InterfaceController2.swift */; };
+		3E9515FA27EF2488000F0C4A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9515F927EF2488000F0C4A /* ExtensionDelegate.swift */; };
+		3E9515FC27EF2488000F0C4A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9515FB27EF2488000F0C4A /* ComplicationController.swift */; };
+		3E9515FE27EF2489000F0C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9515FD27EF2489000F0C4A /* Assets.xcassets */; };
+		3EA85A152850EE290075081E /* ViewControllerEasy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA85A142850EE280075081E /* ViewControllerEasy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E9515E627EF2487000F0C4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E9515C827EF2485000F0C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E9515E327EF2487000F0C4A;
+			remoteInfo = "Guess The Secret Number WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E95160927EF2489000F0C4A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3E9515E527EF2487000F0C4A /* Guess the Secret Number.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E12CDAA284D4B9A009D9F09 /* InterfaceController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController1.swift; sourceTree = "<group>"; };
+		3E12CDAC284D4CB5009D9F09 /* InterfaceController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController3.swift; sourceTree = "<group>"; };
+		3E4D34B42850EEB20034F424 /* ViewControllerHard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHard.swift; sourceTree = "<group>"; };
+		3E9515D027EF2485000F0C4A /* Guess The Secret Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess The Secret Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9515D327EF2485000F0C4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E9515D527EF2485000F0C4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E9515D727EF2485000F0C4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E9515DA27EF2485000F0C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E9515DC27EF2487000F0C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E9515DF27EF2487000F0C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E9515E127EF2487000F0C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9515E427EF2487000F0C4A /* Guess the Secret Number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess the Secret Number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9515EA27EF2487000F0C4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3E9515EC27EF2488000F0C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E9515F727EF2488000F0C4A /* InterfaceController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController2.swift; sourceTree = "<group>"; };
+		3E9515F927EF2488000F0C4A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3E9515FB27EF2488000F0C4A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3E9515FD27EF2489000F0C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E9515FF27EF2489000F0C4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA85A142850EE280075081E /* ViewControllerEasy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEasy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9515CD27EF2485000F0C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9515EF27EF2488000F0C4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E9515C727EF2485000F0C4A = {
+			isa = PBXGroup;
+			children = (
+				3E9515D227EF2485000F0C4A /* Guess The Secret Number */,
+				3E9515E827EF2487000F0C4A /* Guess The Secret Number WatchKit App */,
+				3E9515F627EF2488000F0C4A /* Guess The Secret Number WatchKit Extension */,
+				3E9515D127EF2485000F0C4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E9515D127EF2485000F0C4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E9515D027EF2485000F0C4A /* Guess The Secret Number.app */,
+				3E9515E427EF2487000F0C4A /* Guess the Secret Number.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E9515D227EF2485000F0C4A /* Guess The Secret Number */ = {
+			isa = PBXGroup;
+			children = (
+				3E9515D327EF2485000F0C4A /* AppDelegate.swift */,
+				3E9515D527EF2485000F0C4A /* SceneDelegate.swift */,
+				3E9515D727EF2485000F0C4A /* ViewController.swift */,
+				3EA85A142850EE280075081E /* ViewControllerEasy.swift */,
+				3E4D34B42850EEB20034F424 /* ViewControllerHard.swift */,
+				3E9515D927EF2485000F0C4A /* Main.storyboard */,
+				3E9515DC27EF2487000F0C4A /* Assets.xcassets */,
+				3E9515DE27EF2487000F0C4A /* LaunchScreen.storyboard */,
+				3E9515E127EF2487000F0C4A /* Info.plist */,
+			);
+			path = "Guess The Secret Number";
+			sourceTree = "<group>";
+		};
+		3E9515E827EF2487000F0C4A /* Guess The Secret Number WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3E9515E927EF2487000F0C4A /* Interface.storyboard */,
+				3E9515EC27EF2488000F0C4A /* Assets.xcassets */,
+			);
+			path = "Guess The Secret Number WatchKit App";
+			sourceTree = "<group>";
+		};
+		3E9515F627EF2488000F0C4A /* Guess The Secret Number WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3E9515F727EF2488000F0C4A /* InterfaceController2.swift */,
+				3E12CDAA284D4B9A009D9F09 /* InterfaceController1.swift */,
+				3E12CDAC284D4CB5009D9F09 /* InterfaceController3.swift */,
+				3E9515F927EF2488000F0C4A /* ExtensionDelegate.swift */,
+				3E9515FB27EF2488000F0C4A /* ComplicationController.swift */,
+				3E9515FD27EF2489000F0C4A /* Assets.xcassets */,
+				3E9515FF27EF2489000F0C4A /* Info.plist */,
+			);
+			path = "Guess The Secret Number WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E9515CF27EF2485000F0C4A /* Guess The Secret Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E95160A27EF2489000F0C4A /* Build configuration list for PBXNativeTarget "Guess The Secret Number" */;
+			buildPhases = (
+				3E9515CC27EF2485000F0C4A /* Sources */,
+				3E9515CD27EF2485000F0C4A /* Frameworks */,
+				3E9515CE27EF2485000F0C4A /* Resources */,
+				3E95160927EF2489000F0C4A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E9515E727EF2487000F0C4A /* PBXTargetDependency */,
+			);
+			name = "Guess The Secret Number";
+			productName = "Guess The Secret Number";
+			productReference = 3E9515D027EF2485000F0C4A /* Guess The Secret Number.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E9515E327EF2487000F0C4A /* Guess The Secret Number WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E95160627EF2489000F0C4A /* Build configuration list for PBXNativeTarget "Guess The Secret Number WatchKit App" */;
+			buildPhases = (
+				3E9515E227EF2487000F0C4A /* Resources */,
+				3E9515EE27EF2488000F0C4A /* Sources */,
+				3E9515EF27EF2488000F0C4A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guess The Secret Number WatchKit App";
+			productName = "Guess The Secret Number WatchKit App";
+			productReference = 3E9515E427EF2487000F0C4A /* Guess the Secret Number.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E9515C827EF2485000F0C4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3E9515CF27EF2485000F0C4A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3E9515E327EF2487000F0C4A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 3E9515CB27EF2485000F0C4A /* Build configuration list for PBXProject "Guess The Secret Number" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E9515C727EF2485000F0C4A;
+			productRefGroup = 3E9515D127EF2485000F0C4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E9515CF27EF2485000F0C4A /* Guess The Secret Number */,
+				3E9515E327EF2487000F0C4A /* Guess The Secret Number WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E9515CE27EF2485000F0C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9515E027EF2487000F0C4A /* LaunchScreen.storyboard in Resources */,
+				3E9515DD27EF2487000F0C4A /* Assets.xcassets in Resources */,
+				3E9515DB27EF2485000F0C4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9515E227EF2487000F0C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9515ED27EF2488000F0C4A /* Assets.xcassets in Resources */,
+				3E9515FE27EF2489000F0C4A /* Assets.xcassets in Resources */,
+				3E9515EB27EF2487000F0C4A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9515CC27EF2485000F0C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA85A152850EE290075081E /* ViewControllerEasy.swift in Sources */,
+				3E9515D827EF2485000F0C4A /* ViewController.swift in Sources */,
+				3E4D34B52850EEB20034F424 /* ViewControllerHard.swift in Sources */,
+				3E9515D427EF2485000F0C4A /* AppDelegate.swift in Sources */,
+				3E9515D627EF2485000F0C4A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9515EE27EF2488000F0C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E12CDAD284D4CB5009D9F09 /* InterfaceController3.swift in Sources */,
+				3E12CDAB284D4B9A009D9F09 /* InterfaceController1.swift in Sources */,
+				3E9515FA27EF2488000F0C4A /* ExtensionDelegate.swift in Sources */,
+				3E9515F827EF2488000F0C4A /* InterfaceController2.swift in Sources */,
+				3E9515FC27EF2488000F0C4A /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E9515E727EF2487000F0C4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E9515E327EF2487000F0C4A /* Guess The Secret Number WatchKit App */;
+			targetProxy = 3E9515E627EF2487000F0C4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E9515D927EF2485000F0C4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9515DA27EF2485000F0C4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E9515DE27EF2487000F0C4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9515DF27EF2487000F0C4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3E9515E927EF2487000F0C4A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9515EA27EF2487000F0C4A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E95160027EF2489000F0C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		3E95160127EF2489000F0C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		3E95160727EF2489000F0C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KF8UU99W9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess The Secret Number";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "UsefulBoa.Guess-The-Secret-Number";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "UsefulBoa.Guess-The-Secret-Number.watchkitapp";
+				PRODUCT_NAME = "Guess the Secret Number";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		3E95160827EF2489000F0C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KF8UU99W9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess The Secret Number";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "UsefulBoa.Guess-The-Secret-Number";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "UsefulBoa.Guess-The-Secret-Number.watchkitapp";
+				PRODUCT_NAME = "Guess the Secret Number";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		3E95160B27EF2489000F0C4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KF8UU99W9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guess The Secret Number/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess the Number";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "UsefulBoa.Guess-The-Secret-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3E95160C27EF2489000F0C4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KF8UU99W9A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guess The Secret Number/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guess the Number";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "UsefulBoa.Guess-The-Secret-Number";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E9515CB27EF2485000F0C4A /* Build configuration list for PBXProject "Guess The Secret Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E95160027EF2489000F0C4A /* Debug */,
+				3E95160127EF2489000F0C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E95160627EF2489000F0C4A /* Build configuration list for PBXNativeTarget "Guess The Secret Number WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E95160727EF2489000F0C4A /* Debug */,
+				3E95160827EF2489000F0C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E95160A27EF2489000F0C4A /* Build configuration list for PBXNativeTarget "Guess The Secret Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E95160B27EF2489000F0C4A /* Debug */,
+				3E95160C27EF2489000F0C4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E9515C827EF2485000F0C4A /* Project object */;
+}
